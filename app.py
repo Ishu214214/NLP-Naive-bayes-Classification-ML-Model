@@ -5,6 +5,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 
+import nltk
+
 
 st.set_option('deprecation.showfileUploaderEncoding', False)
 # Load the pickled model
@@ -16,7 +18,9 @@ def review(text):
   # First step: cleaning Text and removing number and punctuation marks.
   # Cleaning the texts for all review using for loop
   import re
-  import nltk
+  
+  #import nltk
+  
   nltk.download('stopwords')
   from nltk.corpus import stopwords
   from nltk.stem.porter import PorterStemmer

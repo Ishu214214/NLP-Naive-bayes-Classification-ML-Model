@@ -5,7 +5,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 
-import nltk
+
 
 
 st.set_option('deprecation.showfileUploaderEncoding', False)

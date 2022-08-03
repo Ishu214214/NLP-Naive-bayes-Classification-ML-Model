@@ -19,8 +19,8 @@ def review(text):
   # Cleaning the texts for all review using for loop
   import re
   
-  #import nltk
-  from nltk.corpus import stopwords
+  import nltk
+  
   
   nltk.download('stopwords')
   from nltk.corpus import stopwords

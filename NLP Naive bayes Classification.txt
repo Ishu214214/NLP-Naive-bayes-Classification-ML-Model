@@ -1,0 +1,42 @@
+
+1st equation
+
+bayes theorm is
+
+p(c|X) = P(X\c) * P(c)  / P(X)
+
+
+
+
+
+
+now 
+
+p(c|X) = P(X\c) * P(c) 
+
+
+ P(X) = constant for all
+
+
+
+2nd equation
+
+p(X|c) = P(x|c)from k=0 to n = P(x1|c) * P(x2|c)  ..... P(xn|c)  * P(c|x)
+
+
+
+..............................................
+
+# Natural language preprocessing
+
+remove is , am ,a 
+
+remove #$^^&*(())_+
+
+remove paragrapht as a sentance
+
+making key of the sentance
+
+
+cry ,crying , criedd === > cry
+

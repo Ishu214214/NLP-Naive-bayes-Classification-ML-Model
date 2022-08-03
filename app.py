@@ -20,6 +20,7 @@ def review(text):
   import re
   
   #import nltk
+  from nltk.corpus import stopwords
   
   nltk.download('stopwords')
   from nltk.corpus import stopwords
